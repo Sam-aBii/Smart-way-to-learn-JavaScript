@@ -1,0 +1,1 @@
+// window.location.assign("http://www.google.com");
