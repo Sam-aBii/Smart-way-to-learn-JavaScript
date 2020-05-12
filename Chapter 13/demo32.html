@@ -6,15 +6,15 @@
     //Chap 13
 
 
-    var math = prompt("Enter your Math marks");
-    var bio = prompt("Enter your Bio marks");
-    var eng = prompt("Enter your Eng marks");
-    var isl = prompt("Enter your Isl marks");
-    var urdu = prompt("Enter your Urdu marks");
+    var math = +prompt("Enter your Math marks");
+    var bio = +prompt("Enter your Bio marks");
+    var eng = +prompt("Enter your Eng marks");
+    var isl = +prompt("Enter your Isl marks");
+    var urdu = +prompt("Enter your Urdu marks");
 
     var averageScore = (math + bio + eng + isl + urdu) / 500 * 100;
 
-    alert(averageScore);
+    alert(averageScore); 
 
     var scoreToPass = 40;
 
