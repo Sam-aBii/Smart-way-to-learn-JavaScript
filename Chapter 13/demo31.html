@@ -1,32 +1,33 @@
 <html>
-<head>
+  <head>
+    <script>
+      // comparision of == and ===
 
-<script>
+      var weight = prompt("Enter your weight");
+      var time = prompt("Enter time?");
+      var speed = prompt("ENter speed in miles")
 
-    // comparision of == and ===
+      if (weight > 300 && time < 6 && speed > 1) {
+        alert("Come to our tryout!");
+      } else {
+        alert("Come to our cookout!");
+      }
 
-    var a = 4;
-    var b = "4";
+      var a = 4;
+      var b = "4";
 
-    var c = a + b;
-    alert(c);
+      var c = a + b;
+      alert(c);
 
-    if(a == b){
+      if (a == b) {
         alert("correct == ");
-    }
+      }
 
-    if(a === b){
+      if (a === b) {
         alert("correct ===");
-    }
-
-    
-
-
-</script>
-
-
-</head>
-<body>
-
-</body>
-<html>
+      }
+    </script>
+  </head>
+  <body></body>
+  <html></html>
+</html>
