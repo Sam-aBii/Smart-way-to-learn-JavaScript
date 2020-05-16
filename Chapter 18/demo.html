@@ -3,10 +3,14 @@
 
 <script>
 
-var names = ["Abid","Farhan","ALi","Arif","Zeeshan"]
+var names = ["Arif","Farhan","ALi","Abid","Zeeshan"]
+   var name = prompt("Enter name")
+        for(var i = 0; i <= names.length; i++){
+            if(name === names[i]){
+                alert("Hey This is "+ name);
+            }
 
-        for(var i = 0; i < names.length; i++){
-            console.log(names[i])
+            break;
         }
 
 </script>

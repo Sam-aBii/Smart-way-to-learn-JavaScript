@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script>
+      var cityToCheck = prompt("Enter city name");
+
+      var cleanestCities = [
+        "Multan",
+        "Karachi",
+        "Tucson",
+        "Great Falls",
+        "Honolulu",
+      ];
+
+      for (var i = 0; i <= 5; i++) {
+        if (cityToCheck === cleanestCities[i]) {
+          alert("It's one of the cleanest cities")
+        } else {
+          alert("Sorry Your city is not in list");
+        }
+        break;
+      }
+    </script>
+  </head>
+</html>
